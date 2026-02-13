@@ -64,6 +64,18 @@ npm run dev
 
 Open http://localhost:5173 — upload documents, ask questions, get cited answers.
 
+## 📦 Example
+
+A minimal runnable example is in the `example/` folder:
+
+```bash
+cd example
+pip install -r requirements.txt
+python example.py
+```
+
+It wires load → chunk → embed → store → retrieve → generate (with a mock LLM).
+
 ## 📖 What You'll Learn
 
 1. How to wire load → chunk → embed → store → retrieve → generate
